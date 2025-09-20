@@ -4,7 +4,7 @@ OncoVision is a Python ML pipeline for detecting multiple cancers (Breast, Lung,
 # OncoVision
 OncoVision is a Python machine learning pipeline for detecting multiple types of cancer (Breast, Lung, Skin, Brain, Blood, Bone) from medical image datasets. It uses PCA for dimensionality reduction, SVM/RandomForest/KNN models with hyperparameter tuning, and a soft-voting ensemble for improved accuracy. Single-image prediction and visual evaluation via confusion matrices are also supported.
 
-Features
+# Features
 Supports multiple cancer types:
 Breast Cancer
 Lung Cancer
@@ -19,7 +19,8 @@ Trains SVM, Random Forest, KNN, and Ensemble classifiers
 Visual evaluation using classification reports and confusion matrices
 Single-image prediction for easy testing
 Saves trained models, PCA, and scaler objects for reuse
-Installation
+
+# Installation
 Clone the repository:
 
 Install dependencies:
@@ -47,7 +48,7 @@ pip install numpy matplotlib seaborn scikit-learn opencv-python joblib
 Organize your dataset as follows:
 Dataset/ ├── Class1/ │ ├── img1.png │ ├── img2.png │ └── ... ├── Class2/ │ ├── img1.png │ └── ... └── ...
 
-Usage
+# Usage
 Run the main pipeline:
 
 python oncovision.py
